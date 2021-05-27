@@ -1,0 +1,240 @@
+/*----------------------------------------------HEADING--------------------------------------------*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #07090D;;
+}
+
+li {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+/*----------------------------------------------Body-----------------------------------------------------------------*/
+body {
+    margin: 0;
+    font-family: 'Merriweather', serif;
+
+}
+/*----------------------------------------------IMAGES----------------------------------------------------------------*/
+.first_image {
+
+    display: block;
+
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      border-radius: 50px;
+}
+
+
+.coding_image {
+    border-radius: 8px;
+     max-width: 100%;
+  height: auto;
+}
+
+
+.profile_pic{
+border-radius: 50%;
+width: 300px;
+margin: 0;
+padding: 20px;
+}
+
+python_image {
+ max-width: 100%;
+  height: auto;
+
+}
+
+/*----------------------------------------------I'M PEDRO------------------------------------------------------------*/
+.im_pedro {
+      /* background-color: #6872A6; light blue */
+
+    height: 600px;
+    border-bottom:solid;
+    padding: 0 100px 100px 100px
+
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+
+.top_header {
+    color: #07090D;
+    text-align:center;
+    font-family: 'Sacramento', cursive;
+    font-size: 70px;
+    margin:0;
+    padding:20px 0 0 0;
+}
+
+.top_p {
+    color:#07090D;
+    font-weight: bold;
+    text-align:center;
+    margin: 0;
+    padding: 0 0 20px 0;
+}
+/*----------------------------------------------HELLO------------------------------------------------------------*/
+.hello_p {
+    text-align: justify;
+  text-justify: inter-word;
+  padding:0 400px 20px 400px;
+}
+
+/*----------------------------------------------SKILL 1------------------------------------------------------------*/
+
+
+
+.skill_row{
+
+    text-align:center;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    margin:0;
+    padding:20px;
+    background-color:#07090D;
+    color: white;
+
+}
+
+/*----------------------------------------------SKILL 2---------------------------------------------------------------*/
+.skill_row2{
+
+    text-align:center;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    margin:0;
+    padding:40px;
+    background-color: white;
+    color: #07090D;
+
+}
+/*----------------------------------------------BOTTOM CONTAINER------------------------------------------------------*/
+.bottom_container {
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    padding: 20px;
+
+}
+/*----------------------------------------------CONTACT ME -----------------------------------------------------------*/
+.contact_me{
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    padding: 20px;
+}
+
+
+/*-----------------------------------------------hr ------------------------------------------------------------------*/
+
+hr {
+    size:3;
+    margin:0;
+    color: black;
+
+}
+
+
+
+
+
+
+/* Color Theme Swatches in Hex */
+.Symphonologie-at-The-Louvre-1-hex { color: #9A89D9; }
+.Symphonologie-at-The-Louvre-2-hex { color: #403959; }
+.Symphonologie-at-The-Louvre-3-hex { color: #1C1A26; }
+.Symphonologie-at-The-Louvre-4-hex { color: #6872A6; }
+.Symphonologie-at-The-Louvre-5-hex { color: #07090D; }
+
+/* Color Theme Swatches in RGBA */
+.Symphonologie-at-The-Louvre-1-rgba { color: rgba(153, 136, 216, 1); }
+.Symphonologie-at-The-Louvre-2-rgba { color: rgba(64, 57, 89, 1); }
+.Symphonologie-at-The-Louvre-3-rgba { color: rgba(27, 26, 38, 1); }
+.Symphonologie-at-The-Louvre-4-rgba { color: rgba(104, 113, 165, 1); }
+.Symphonologie-at-The-Louvre-5-rgba { color: rgba(7, 8, 12, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Symphonologie-at-The-Louvre-1-hsla { color: hsla(253, 51, 69, 1); }
+.Symphonologie-at-The-Louvre-2-hsla { color: hsla(253, 21, 28, 1); }
+.Symphonologie-at-The-Louvre-3-hsla { color: hsla(247, 18, 12, 1); }
+.Symphonologie-at-The-Louvre-4-hsla { color: hsla(230, 25, 52, 1); }
+.Symphonologie-at-The-Louvre-5-hsla { color: hsla(225, 26, 3, 1); }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ______---------------------------------Tag Selectors -----------------
+
+
+h1{ color: red;}
+
+p { color:red;}
+
+img:hover {
+    background-color: red; /*changes color when mouse hoovers d*/
+
+
+
+
+/* ______---------------------------------Class Selectors -----------------
+using class as selectors                 */
+
+/*
+.bacon {
+    background-color: blue;
+    border-radius: 100%;  /*makes image round*/
+/*
+}
+
+.gorilla {
+    background-color: green;
+    border-radius: 100%;
+}
+
+
+/* ______---------------------------------ID Selectors -----------------*/
+
+/*
+#heading {
+    color: blue
+
+}
+*/
